@@ -1,5 +1,932 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>fonts/a Theme for murder.ttf</file>
+        <file>fonts/AARDV.TTF</file>
+        <file>fonts/abaddon.TTF</file>
+        <file>fonts/abbey_m1.ttf</file>
+        <file>fonts/aberatn.ttf</file>
+        <file>fonts/absci___.ttf</file>
+        <file>fonts/abscib__.ttf</file>
+        <file>fonts/abscibi_.ttf</file>
+        <file>fonts/abscii__.ttf</file>
+        <file>fonts/Absif1__.ttf</file>
+        <file>fonts/Absif2__.ttf</file>
+        <file>fonts/Ac.ttf</file>
+        <file>fonts/AC______.TTF</file>
+        <file>fonts/Achafexp.ttf</file>
+        <file>fonts/Achafita.ttf</file>
+        <file>fonts/Achaflft.ttf</file>
+        <file>fonts/Achafont.ttf</file>
+        <file>fonts/Achafout.ttf</file>
+        <file>fonts/Achafsex.ttf</file>
+        <file>fonts/Acidic.ttf</file>
+        <file>fonts/ACQUAINT.TTF</file>
+        <file>fonts/actionj.ttf</file>
+        <file>fonts/Actionsh.ttf</file>
+        <file>fonts/Actionsh.wri</file>
+        <file>fonts/ADAMN.TTF</file>
+        <file>fonts/AdineKirnberg-Script.ttf</file>
+        <file>fonts/ADPACK01.GIF</file>
+        <file>fonts/Adventure Subtitles.ttf</file>
+        <file>fonts/aenigmascrawl.txt</file>
+        <file>fonts/Aerosol.ttf</file>
+        <file>fonts/aescrawl.ttf</file>
+        <file>fonts/african.ttf</file>
+        <file>fonts/Against Myself.ttf</file>
+        <file>fonts/AGENO___.TTF</file>
+        <file>fonts/AGENTRED.TTF</file>
+        <file>fonts/AIRCONDI.TTF</file>
+        <file>fonts/AIRSTREA.TTF</file>
+        <file>fonts/akbar.ttf</file>
+        <file>fonts/Alakob.ttf</file>
+        <file>fonts/ALBED___.TTF</file>
+        <file>fonts/All Star Resort.ttf</file>
+        <file>fonts/almosnow.ttf</file>
+        <file>fonts/alsscrp.ttf</file>
+        <file>fonts/ALTEA.TTF</file>
+        <file>fonts/Amadeus Regular.ttf</file>
+        <file>fonts/AMANO___.TTF</file>
+        <file>fonts/angelina.TTF</file>
+        <file>fonts/Anglo Text.ttf</file>
+        <file>fonts/anke-artMilkyWay.txt</file>
+        <file>fonts/ANTSYPAN.TTF</file>
+        <file>fonts/ANVIL.ttf</file>
+        <file>fonts/anythingyouwant.ttf</file>
+        <file>fonts/apicture.ttf</file>
+        <file>fonts/apicture.txt</file>
+        <file>fonts/Ayuma2yk.ttf</file>
+        <file>fonts/Babe Bamboo.ttf</file>
+        <file>fonts/Babelfish.ttf</file>
+        <file>fonts/BabelSans-Bold.ttf</file>
+        <file>fonts/BabelSans-BoldOblique.ttf</file>
+        <file>fonts/BabelSans-Oblique.ttf</file>
+        <file>fonts/BabelSans.ttf</file>
+        <file>fonts/BABYK___.TTF</file>
+        <file>fonts/backg.bmp</file>
+        <file>fonts/BackToSchool.ttf</file>
+        <file>fonts/BADABB__.TTF</file>
+        <file>fonts/BADFILMS.TTF</file>
+        <file>fonts/BAILEYSC.TTF</file>
+        <file>fonts/BALKER__.TTF</file>
+        <file>fonts/BALL____.TTF</file>
+        <file>fonts/balloons10LgSample.jpg</file>
+        <file>fonts/BARBATRI.TTF</file>
+        <file>fonts/Barber_shop.ttf</file>
+        <file>fonts/Base 02.jpg</file>
+        <file>fonts/Base 02.ttf</file>
+        <file>fonts/BASIF___.TTF</file>
+        <file>fonts/BastardusSans.ttf</file>
+        <file>fonts/BAUERG__.TTF</file>
+        <file>fonts/BAYERN__.TTF</file>
+        <file>fonts/BAYOC___.TTF</file>
+        <file>fonts/be______.ttf</file>
+        <file>fonts/BEADC___.TTF</file>
+        <file>fonts/beaggressive.ttf</file>
+        <file>fonts/BEAUCESC.TTF</file>
+        <file>fonts/BEAUE___.TTF</file>
+        <file>fonts/BECKETT_.TTF</file>
+        <file>fonts/Big Lou.ttf</file>
+        <file>fonts/Big Zero Special Features.txt</file>
+        <file>fonts/bigfish.ttf</file>
+        <file>fonts/bigfish.txt</file>
+        <file>fonts/Bijou.ttf</file>
+        <file>fonts/Bijou.wri</file>
+        <file>fonts/billd.txt</file>
+        <file>fonts/BILLD___.TTF</file>
+        <file>fonts/BlackCastleMF.ttf</file>
+        <file>fonts/BLACKR~1.TTF</file>
+        <file>fonts/Blazed.ttf</file>
+        <file>fonts/BLOCLT__.TTF</file>
+        <file>fonts/Bloodrac.TTF</file>
+        <file>fonts/bloodrac.txt</file>
+        <file>fonts/Bloody.ttf</file>
+        <file>fonts/Boingo.ttf</file>
+        <file>fonts/BOISTERB.AFM</file>
+        <file>fonts/BOISTERB.INF</file>
+        <file>fonts/BOISTERB.PFB</file>
+        <file>fonts/BOISTERB.PFM</file>
+        <file>fonts/Boisterb.ttf</file>
+        <file>fonts/BOISTERC.AFM</file>
+        <file>fonts/BOISTERC.INF</file>
+        <file>fonts/BOISTERC.PFB</file>
+        <file>fonts/BOISTERC.PFM</file>
+        <file>fonts/BOISTERC.TTF</file>
+        <file>fonts/bonjovi_.ttf</file>
+        <file>fonts/BoobToob.ttf</file>
+        <file>fonts/BoobToobOpen.ttf</file>
+        <file>fonts/BOOKLET.TXT</file>
+        <file>fonts/BORING.TTF</file>
+        <file>fonts/BORINGJ.TTF</file>
+        <file>fonts/boston.ttf</file>
+        <file>fonts/BRAD.TTF</file>
+        <file>fonts/Brandy Script.ttf</file>
+        <file>fonts/BREAB___.TTF</file>
+        <file>fonts/breakaway.ttf</file>
+        <file>fonts/BRINGTHANOIZE.TTF</file>
+        <file>fonts/broken15.ttf</file>
+        <file>fonts/BROOKLYN.TTF</file>
+        <file>fonts/BROOKLYN.TXT</file>
+        <file>fonts/Budhand.ttf</file>
+        <file>fonts/Buff.ttf</file>
+        <file>fonts/buffied.txt</file>
+        <file>fonts/BWgroupsex.jpg</file>
+        <file>fonts/BWhourphoto.jpg</file>
+        <file>fonts/CABEC___.TTF</file>
+        <file>fonts/CACTUS.TTF</file>
+        <file>fonts/CADEAULX.TTF</file>
+        <file>fonts/CAELDERA.TTF</file>
+        <file>fonts/Caffe Latte.ttf</file>
+        <file>fonts/CALID___.TTF</file>
+        <file>fonts/caliph.ttf</file>
+        <file>fonts/Calligra.ttf</file>
+        <file>fonts/Calligraphica.txt</file>
+        <file>fonts/calligula.ttf</file>
+        <file>fonts/calligula.txt</file>
+        <file>fonts/CALLISTR.TTF</file>
+        <file>fonts/callistr.txt</file>
+        <file>fonts/CALVINN.TTF</file>
+        <file>fonts/CandyTime.ttf</file>
+        <file>fonts/CanGoods.ttf</file>
+        <file>fonts/cantebriggia.ttf</file>
+        <file>fonts/carbon.ttf</file>
+        <file>fonts/CARBONBL.ttf</file>
+        <file>fonts/Cardinal-Alternate.ttf</file>
+        <file>fonts/Cardinal.ttf</file>
+        <file>fonts/CARMENCI.TTF</file>
+        <file>fonts/Carrington.ttf</file>
+        <file>fonts/Cast Iron.ttf</file>
+        <file>fonts/CASTOR__.ttf</file>
+        <file>fonts/CASTORD_.ttf</file>
+        <file>fonts/CASTORM_.ttf</file>
+        <file>fonts/CASTORR_.ttf</file>
+        <file>fonts/CASTORU_.ttf</file>
+        <file>fonts/CASTORW_.ttf</file>
+        <file>fonts/CATHSGBR.TTF</file>
+        <file>fonts/Catwalk.ttf</file>
+        <file>fonts/CELTG___.TTF</file>
+        <file>fonts/cenobyte.ttf</file>
+        <file>fonts/chancur.ttf</file>
+        <file>fonts/changes to font.txt</file>
+        <file>fonts/charterwell.ttf</file>
+        <file>fonts/charterwell2.ttf</file>
+        <file>fonts/charterwell3.ttf</file>
+        <file>fonts/charterwell4.ttf</file>
+        <file>fonts/charterwell5.ttf</file>
+        <file>fonts/charterwellb.ttf</file>
+        <file>fonts/CHEESEBU.TTF</file>
+        <file>fonts/CHELI___.TTF</file>
+        <file>fonts/CHERI___.TTF</file>
+        <file>fonts/CHERL___.TTF</file>
+        <file>fonts/CHINESETAKEAWAY.ttf</file>
+        <file>fonts/Cigno.ttf</file>
+        <file>fonts/comic.txt</file>
+        <file>fonts/COMICR.FON</file>
+        <file>fonts/Comicv23D.ttf</file>
+        <file>fonts/Comicv2b.ttf</file>
+        <file>fonts/Comicv2bi.ttf</file>
+        <file>fonts/Comicv2c.ttf</file>
+        <file>fonts/Comicv2d.ttf</file>
+        <file>fonts/Comicv2e.ttf</file>
+        <file>fonts/Comicv2i.ttf</file>
+        <file>fonts/Comicv3.ttf</file>
+        <file>fonts/COOLVETI.TTF</file>
+        <file>fonts/copyright.txt</file>
+        <file>fonts/COVENTRY.TTF</file>
+        <file>fonts/Crass.ttf</file>
+        <file>fonts/CREAMPUF.TTF</file>
+        <file>fonts/CRETINO_.TTF</file>
+        <file>fonts/CW_PAPRK.TTF</file>
+        <file>fonts/CWMAGIK_.TTF</file>
+        <file>fonts/D3Archism.ttf</file>
+        <file>fonts/dadha___.ttf</file>
+        <file>fonts/dahaut__.ttf</file>
+        <file>fonts/daisy.ttf</file>
+        <file>fonts/DampfPlatz.ttf</file>
+        <file>fonts/DampfPlatzs.ttf</file>
+        <file>fonts/DampfPlatzsh.ttf</file>
+        <file>fonts/darkgard.TTF</file>
+        <file>fonts/darkh.txt</file>
+        <file>fonts/Darkh4.ttf</file>
+        <file>fonts/davyrib.ttf</file>
+        <file>fonts/DAY-O.txt</file>
+        <file>fonts/DAYROM__.ttf</file>
+        <file>fonts/DAYROM_X.ttf</file>
+        <file>fonts/dc_s.ttf</file>
+        <file>fonts/Dearest Friend lite.ttf</file>
+        <file>fonts/Dearest Friend.ttf</file>
+        <file>fonts/Dearest open.ttf</file>
+        <file>fonts/Dearest outline.ttf</file>
+        <file>fonts/Dearest.ttf</file>
+        <file>fonts/DEARJI__.TTF</file>
+        <file>fonts/dearJoe II sample.jpg</file>
+        <file>fonts/DEFTONE.TTF</file>
+        <file>fonts/degrassi.ttf</file>
+        <file>fonts/DeiGrat.ttf</file>
+        <file>fonts/DeiGratia.txt</file>
+        <file>fonts/depress3_____.TTF</file>
+        <file>fonts/DESC.TXT</file>
+        <file>fonts/Devroye readme.txt</file>
+        <file>fonts/Devroye True Type details.txt</file>
+        <file>fonts/DEVROYE_.ttf</file>
+        <file>fonts/DEVROYEX.ttf</file>
+        <file>fonts/DEVROYSC.ttf</file>
+        <file>fonts/DEVROYUN.ttf</file>
+        <file>fonts/DIESEL.TTF</file>
+        <file>fonts/dirtyheadline.ttf</file>
+        <file>fonts/DODG5.TTF</file>
+        <file>fonts/dodge.txt</file>
+        <file>fonts/dolphins.ttf</file>
+        <file>fonts/Dorcla__.ttf</file>
+        <file>fonts/Dragonfly.ttf</file>
+        <file>fonts/Duke.ttf</file>
+        <file>fonts/DYMAXION.TTF</file>
+        <file>fonts/eager___.ttf</file>
+        <file>fonts/EARWIGFA.TTF</file>
+        <file>fonts/Eastersunrise.TTF</file>
+        <file>fonts/ecliptic.ttf</file>
+        <file>fonts/ecliptic.txt</file>
+        <file>fonts/EDBWT___.TTF</file>
+        <file>fonts/EDISONMF.TTF</file>
+        <file>fonts/email.txt</file>
+        <file>fonts/Embossed Black Normal.ttf</file>
+        <file>fonts/Embossed Black Wide.ttf</file>
+        <file>fonts/Embossed Germanica.ttf</file>
+        <file>fonts/EMPORIUM.TTF</file>
+        <file>fonts/emporium.txt</file>
+        <file>fonts/ENDOR___.ttf</file>
+        <file>fonts/ENDORALT.ttf</file>
+        <file>fonts/english_.txt</file>
+        <file>fonts/espek___.ttf</file>
+        <file>fonts/espek___.txt</file>
+        <file>fonts/eurostile.TTF</file>
+        <file>fonts/exmouth_.ttf</file>
+        <file>fonts/Exotica.ttf</file>
+        <file>fonts/FAB chiocciole.ttf</file>
+        <file>fonts/FACERG__.TTF</file>
+        <file>fonts/factor.txt</file>
+        <file>fonts/FACTOR2.TTF</file>
+        <file>fonts/FADETOGR.TTF</file>
+        <file>fonts/Famous Fonts.txt</file>
+        <file>fonts/FANCYPAN.TTF</file>
+        <file>fonts/FASHIONV.TTF</file>
+        <file>fonts/fawn.ttf</file>
+        <file>fonts/FAZINGSONE.TTF</file>
+        <file>fonts/FEENC___.ttf</file>
+        <file>fonts/FELTMARI.TTF</file>
+        <file>fonts/FELTMARK.TTF</file>
+        <file>fonts/FerroRosso.ttf</file>
+        <file>fonts/festreg.txt</file>
+        <file>fonts/festus!.ttf</file>
+        <file>fonts/FILE_ID.DIZ</file>
+        <file>fonts/FILEID.DIZ</file>
+        <file>fonts/files.txt</file>
+        <file>fonts/FIRESTARTER.TTF</file>
+        <file>fonts/First Crush.ttf</file>
+        <file>fonts/Flame.ttf</file>
+        <file>fonts/Flower-G.ttf</file>
+        <file>fonts/Flubber.txt</file>
+        <file>fonts/FLUBBER_.TTF</file>
+        <file>fonts/Fluted Germanica.ttf</file>
+        <file>fonts/flwscrp.ttf</file>
+        <file>fonts/FlyingHollander.ttf</file>
+        <file>fonts/Font (el&amp;font bubble).ttf</file>
+        <file>fonts/Font (el&amp;font gothic!).ttf</file>
+        <file>fonts/Font (el&amp;font tag!).ttf</file>
+        <file>fonts/Font (el&amp;font!).ttf</file>
+        <file>fonts/font info.txt</file>
+        <file>fonts/FONTDINE.TTF</file>
+        <file>fonts/fontinfo.txt</file>
+        <file>fonts/FONTLERO.TTF</file>
+        <file>fonts/fontpreview.gif</file>
+        <file>fonts/Fortunaschwein.ttf</file>
+        <file>fonts/FragmentAZ.ttf</file>
+        <file>fonts/freak.ttf</file>
+        <file>fonts/free.doc</file>
+        <file>fonts/free.txt</file>
+        <file>fonts/FREEBSC_.ttf</file>
+        <file>fonts/FREEBSCA.ttf</file>
+        <file>fonts/FuzzyCootie.ttf</file>
+        <file>fonts/GABRA___.TTF</file>
+        <file>fonts/GapsS-b.ttf</file>
+        <file>fonts/GapsS.ttf</file>
+        <file>fonts/Gapst-b.ttf</file>
+        <file>fonts/Gapstown.ttf</file>
+        <file>fonts/Gapstown.txt</file>
+        <file>fonts/Gargoyles.ttf</file>
+        <file>fonts/Gargoyles.txt</file>
+        <file>fonts/GARTON.TTF</file>
+        <file>fonts/GASHP___.TTF</file>
+        <file>fonts/GASTADA_.TTF</file>
+        <file>fonts/GautMe.txt</file>
+        <file>fonts/GemText.txt</file>
+        <file>fonts/GenAltI1.ttf</file>
+        <file>fonts/GenAltR1.ttf</file>
+        <file>fonts/GenI1.ttf</file>
+        <file>fonts/GenR1.ttf</file>
+        <file>fonts/Gentium 1 Read Me.txt</file>
+        <file>fonts/german__.txt</file>
+        <file>fonts/GESSELE.TTF</file>
+        <file>fonts/GESSELE.TXT</file>
+        <file>fonts/GHOSTWRITER.TTF</file>
+        <file>fonts/girls.txt</file>
+        <file>fonts/GIRLW___.TTF</file>
+        <file>fonts/Glastonbury Shadow.ttf</file>
+        <file>fonts/Glastonbury Wide Shadow.ttf</file>
+        <file>fonts/Glastonbury Wide.ttf</file>
+        <file>fonts/Glastonbury.ttf</file>
+        <file>fonts/Goffik-O.ttf</file>
+        <file>fonts/Goofball.ttf</file>
+        <file>fonts/goofball.txt</file>
+        <file>fonts/GRAFFITI.TTF</file>
+        <file>fonts/Grand Stylus.ttf</file>
+        <file>fonts/grease__.24</file>
+        <file>fonts/grease__.ttf</file>
+        <file>fonts/Groupsex.ttf</file>
+        <file>fonts/GUEVARA_.TTF</file>
+        <file>fonts/GUTTM___.TTF</file>
+        <file>fonts/hackandslash.txt</file>
+        <file>fonts/hackslsh.ttf</file>
+        <file>fonts/HAIROFTH.TTF</file>
+        <file>fonts/HALLMT__.TTF</file>
+        <file>fonts/Halls___.ttf</file>
+        <file>fonts/Hand.txt</file>
+        <file>fonts/HARRP___.TTF</file>
+        <file>fonts/HarryPotter.jpg</file>
+        <file>fonts/headinj____.ttf</file>
+        <file>fonts/HEARTBRE.TTF</file>
+        <file>fonts/hearts.txt</file>
+        <file>fonts/hearts_brk.ttf</file>
+        <file>fonts/Heather.ttf</file>
+        <file>fonts/heather.txt</file>
+        <file>fonts/HEIDH___.ttf</file>
+        <file>fonts/HenryMorgan.txt</file>
+        <file>fonts/HenryMorganHand.ttf</file>
+        <file>fonts/Herman.txt</file>
+        <file>fonts/HermanDecanus.TTF</file>
+        <file>fonts/HermanDecLite.TTF</file>
+        <file>fonts/Hermanus.gif</file>
+        <file>fonts/holyuni.ttf</file>
+        <file>fonts/hotpizza.ttf</file>
+        <file>fonts/Houndtim.ttf</file>
+        <file>fonts/HourPhoto.ttf</file>
+        <file>fonts/hpunk.ttf</file>
+        <file>fonts/Iam.ttf</file>
+        <file>fonts/icbmss20.ttf</file>
+        <file>fonts/icbmss25.ttf</file>
+        <file>fonts/Icon</file>
+        <file>fonts/ilsscrp.ttf</file>
+        <file>fonts/Incised Black Wide.ttf</file>
+        <file>fonts/Incised Black.ttf</file>
+        <file>fonts/independ.TTF</file>
+        <file>fonts/Independ.txt</file>
+        <file>fonts/info.txt</file>
+        <file>fonts/Inhishan.ttf</file>
+        <file>fonts/Inkburro.ttf</file>
+        <file>fonts/INSTALL.CFG</file>
+        <file>fonts/install.doc</file>
+        <file>fonts/INSTALL.txt</file>
+        <file>fonts/invisibl.ttf</file>
+        <file>fonts/invkil.doc</file>
+        <file>fonts/IP______.TTF</file>
+        <file>fonts/JABBJ___.TTF</file>
+        <file>fonts/JAMIRO__.TTF</file>
+        <file>fonts/jandles.ttf</file>
+        <file>fonts/JaneAust.ttf</file>
+        <file>fonts/JaneAusten.txt</file>
+        <file>fonts/JANIS___.TTF</file>
+        <file>fonts/JB gfx FONTS readme.txt</file>
+        <file>fonts/Jellofont.ttf</file>
+        <file>fonts/Jey.ttf</file>
+        <file>fonts/JFJunRoc.ttf</file>
+        <file>fonts/JFSnobiz.ttf</file>
+        <file>fonts/JUICE___.TTF</file>
+        <file>fonts/Jungle Rock.txt</file>
+        <file>fonts/Kabanoss.ttf</file>
+        <file>fonts/Kalos.ttf</file>
+        <file>fonts/Kapasald.ttf</file>
+        <file>fonts/Karate.ttf</file>
+        <file>fonts/katana.txt</file>
+        <file>fonts/Katanf.ttf</file>
+        <file>fonts/Katanfi.ttf</file>
+        <file>fonts/Katanfs.ttf</file>
+        <file>fonts/KellyBrown.ttf</file>
+        <file>fonts/KellyBrown_Readme.txt</file>
+        <file>fonts/KentuckyFriedChickenFont.ttf</file>
+        <file>fonts/KidScraw.ttf</file>
+        <file>fonts/KILLATV_.TTF</file>
+        <file>fonts/Killig.ttf</file>
+        <file>fonts/Killigs.ttf</file>
+        <file>fonts/Kingthings Calligraphica Italic.ttf</file>
+        <file>fonts/Kingthings Calligraphica Light.ttf</file>
+        <file>fonts/Kingthings Calligraphica.ttf</file>
+        <file>fonts/kingthings Hand.ttf</file>
+        <file>fonts/KIWIFONT.HTM</file>
+        <file>fonts/KRAVITZ_.TTF</file>
+        <file>fonts/Krystal.ttf</file>
+        <file>fonts/Laban.ttf</file>
+        <file>fonts/laban.txt</file>
+        <file>fonts/Labanb.ttf</file>
+        <file>fonts/LABRIT__.ttf</file>
+        <file>fonts/Lackey.ttf</file>
+        <file>fonts/lackey.txt</file>
+        <file>fonts/land-v2.ttf</file>
+        <file>fonts/Lanehum.ttf</file>
+        <file>fonts/Last_words.ttf</file>
+        <file>fonts/Lauren_Readme.txt</file>
+        <file>fonts/LaurenScript.ttf</file>
+        <file>fonts/ldsscrp.ttf</file>
+        <file>fonts/leame.txt</file>
+        <file>fonts/LEDBDREV.TTF</file>
+        <file>fonts/LEDBOARD.TTF</file>
+        <file>fonts/LEDBOARD.TXT</file>
+        <file>fonts/Legal Mumbo Jumbo.txt</file>
+        <file>fonts/legal_bn.txt</file>
+        <file>fonts/LEONARDO.TTF</file>
+        <file>fonts/LICENSE</file>
+        <file>fonts/license.doc</file>
+        <file>fonts/license.rtf</file>
+        <file>fonts/license.txt</file>
+        <file>fonts/liesmich.txt</file>
+        <file>fonts/Linda Read Me.txt</file>
+        <file>fonts/Lindl___.ttf</file>
+        <file>fonts/Lisez Moi.doc</file>
+        <file>fonts/listding.txt</file>
+        <file>fonts/listemageren.txt</file>
+        <file>fonts/Little days.ttf</file>
+        <file>fonts/llegiu-me.txt</file>
+        <file>fonts/LOKICOLA.TTF</file>
+        <file>fonts/Lorem Ipsum.doc</file>
+        <file>fonts/LOVELETTERS.ttf</file>
+        <file>fonts/LY______.TTF</file>
+        <file>fonts/mabella.TTF</file>
+        <file>fonts/mabellaREADME.TXT</file>
+        <file>fonts/Machinegun.ttf</file>
+        <file>fonts/MachineScript.ttf</file>
+        <file>fonts/MACHUMAN.DOC</file>
+        <file>fonts/MACHUMAN.TTF</file>
+        <file>fonts/MADAVE.DOC</file>
+        <file>fonts/MADAVE.TTF</file>
+        <file>fonts/madidonreadme.txt</file>
+        <file>fonts/madison.ttf</file>
+        <file>fonts/madscrwl.ttf</file>
+        <file>fonts/madsscrawl.txt</file>
+        <file>fonts/MAEL____.TTF</file>
+        <file>fonts/Magic Cards.ttf</file>
+        <file>fonts/MAGNUM__.TTF</file>
+        <file>fonts/MANDINGO.TTF</file>
+        <file>fonts/MarkerFinePoint.ttf</file>
+        <file>fonts/MARQUEE_.TTF</file>
+        <file>fonts/MECHANI_.ttf</file>
+        <file>fonts/MECHANII.ttf</file>
+        <file>fonts/MECHRIB_.ttf</file>
+        <file>fonts/MECHRIBI.ttf</file>
+        <file>fonts/Medici Text.ttf</file>
+        <file>fonts/MELTM___.TTF</file>
+        <file>fonts/MICHAEL.TTF</file>
+        <file>fonts/michael.txt</file>
+        <file>fonts/MICKEY.TTF</file>
+        <file>fonts/MilkyWay.htm</file>
+        <file>fonts/MilkyWay.ttf</file>
+        <file>fonts/minim.ttf</file>
+        <file>fonts/minim_o.ttf</file>
+        <file>fonts/minster1.ttf</file>
+        <file>fonts/minster2.ttf</file>
+        <file>fonts/minster3.ttf</file>
+        <file>fonts/minster4.ttf</file>
+        <file>fonts/minster5.ttf</file>
+        <file>fonts/minster6.ttf</file>
+        <file>fonts/MissBrooks.ttf</file>
+        <file>fonts/MIXEDUP.TTF</file>
+        <file>fonts/MO.TTF</file>
+        <file>fonts/Mohawk.ttf</file>
+        <file>fonts/MORPHEUS.TTF</file>
+        <file>fonts/Mouser.ttf</file>
+        <file>fonts/Mouser_i.ttf</file>
+        <file>fonts/Mouser_o.ttf</file>
+        <file>fonts/Movie Times.ttf</file>
+        <file>fonts/musicals.ttf</file>
+        <file>fonts/musicals.txt</file>
+        <file>fonts/must_read.txt</file>
+        <file>fonts/myoldrem.ttf</file>
+        <file>fonts/NADALL.TTF</file>
+        <file>fonts/NADALL.TXT</file>
+        <file>fonts/NAILED.ttf</file>
+        <file>fonts/nanosecond.txt</file>
+        <file>fonts/nanosecw.ttf</file>
+        <file>fonts/NarniaBLL.ttf</file>
+        <file>fonts/NATIONFF.TTF</file>
+        <file>fonts/NATIONFF.TXT</file>
+        <file>fonts/NATIONPP.TTF</file>
+        <file>fonts/NATIONPP.TXT</file>
+        <file>fonts/nauvo___.ttf</file>
+        <file>fonts/New Day Script.ttf</file>
+        <file>fonts/new_read.me</file>
+        <file>fonts/nightsky.ttf</file>
+        <file>fonts/NINJAS.TTF</file>
+        <file>fonts/ninjas.txt</file>
+        <file>fonts/NOCKC___.TTF</file>
+        <file>fonts/noodleme.txt</file>
+        <file>fonts/nooscrip.ttf</file>
+        <file>fonts/NORMT___.TTF</file>
+        <file>fonts/Note this.ttf</file>
+        <file>fonts/nsecthck.ttf</file>
+        <file>fonts/nsecthin.ttf</file>
+        <file>fonts/OAKWOOD_.TTF</file>
+        <file>fonts/OASIS___.TTF</file>
+        <file>fonts/Oedipa.ttf</file>
+        <file>fonts/ofc_____.ttf</file>
+        <file>fonts/OFFSite.url</file>
+        <file>fonts/Og.TTF</file>
+        <file>fonts/OglvREAD.me</file>
+        <file>fonts/Oktoberfest.ttf</file>
+        <file>fonts/OLDRB___.TTF</file>
+        <file>fonts/OLDRBI__.TTF</file>
+        <file>fonts/oldrepublic10.jpg</file>
+        <file>fonts/OLDRI___.TTF</file>
+        <file>fonts/OLDRRG__.TTF</file>
+        <file>fonts/oliver__.ttf</file>
+        <file>fonts/order.txt</file>
+        <file>fonts/ORDERFRM.pdf</file>
+        <file>fonts/ORDERFRM.TXT</file>
+        <file>fonts/Oreos.ttf</file>
+        <file>fonts/Oreos.txt</file>
+        <file>fonts/oreospreview.gif</file>
+        <file>fonts/PAC-FONT.TTF</file>
+        <file>fonts/pad_file.htm</file>
+        <file>fonts/pad_file.xml</file>
+        <file>fonts/Padaloma.ttf</file>
+        <file>fonts/Padaloma_i.ttf</file>
+        <file>fonts/Paddington Bold Italic.ttf</file>
+        <file>fonts/Paddington Bold.ttf</file>
+        <file>fonts/Paddington Italic.ttf</file>
+        <file>fonts/Paddington.ttf</file>
+        <file>fonts/Paddington.txt</file>
+        <file>fonts/PaddingtonSC Bold.ttf</file>
+        <file>fonts/PaddingtonSC.ttf</file>
+        <file>fonts/PAGANINI.TTF</file>
+        <file>fonts/Paintdrp.ttf</file>
+        <file>fonts/PaisleyCaps .ttf</file>
+        <file>fonts/ParryHotter.ttf</file>
+        <file>fonts/Patriot.ttf</file>
+        <file>fonts/PEANUTS_.TTF</file>
+        <file>fonts/PenguinAttack.ttf</file>
+        <file>fonts/PENHURSB.TTF</file>
+        <file>fonts/PENHURSS.TTF</file>
+        <file>fonts/PENSHURS.TTF</file>
+        <file>fonts/PERRYGOT.TTF</file>
+        <file>fonts/PERRYGOT.TXT</file>
+        <file>fonts/Pinewood.ttf</file>
+        <file>fonts/pizzadudedotdk.txt</file>
+        <file>fonts/Plain Black Wide.ttf</file>
+        <file>fonts/Plain Black.ttf</file>
+        <file>fonts/Plain Germanica.ttf</file>
+        <file>fonts/planetbe.ttf</file>
+        <file>fonts/please.JPG</file>
+        <file>fonts/Polo Brush.ttf</file>
+        <file>fonts/PotLand.ttf</file>
+        <file>fonts/PRECIOSA.TTF</file>
+        <file>fonts/preview.gif</file>
+        <file>fonts/preview.jpg</file>
+        <file>fonts/Primitive.ttf</file>
+        <file>fonts/punkass_.ttf</file>
+        <file>fonts/Qarats.ttf</file>
+        <file>fonts/qbicle.txt</file>
+        <file>fonts/qbicle1.ttf</file>
+        <file>fonts/qbicle2.ttf</file>
+        <file>fonts/qbicle3.ttf</file>
+        <file>fonts/qbicle4.ttf</file>
+        <file>fonts/qofc.pdf</file>
+        <file>fonts/QU______.TTF</file>
+        <file>fonts/quarterly.txt</file>
+        <file>fonts/quarthck.ttf</file>
+        <file>fonts/quarthin.ttf</file>
+        <file>fonts/queensla.sui</file>
+        <file>fonts/QUEEOC__.ttf</file>
+        <file>fonts/QUIGLEYW.TTF</file>
+        <file>fonts/QUIXOT__.ttf</file>
+        <file>fonts/RABBIT.TXT</file>
+        <file>fonts/rabiohead.ttf</file>
+        <file>fonts/RADAERN.TTF</file>
+        <file>fonts/RADIO.TTF</file>
+        <file>fonts/radio.txt</file>
+        <file>fonts/Radioland Slim.ttf</file>
+        <file>fonts/Radioland.ttf</file>
+        <file>fonts/RAE_____.TTF</file>
+        <file>fonts/RAG.TTF</file>
+        <file>fonts/rai_____.ttf</file>
+        <file>fonts/ransom.ttf</file>
+        <file>fonts/RAPSCALL.TTF</file>
+        <file>fonts/rapscallion.jpg</file>
+        <file>fonts/Rapscallion.txt</file>
+        <file>fonts/RAVEQ___.TTF</file>
+        <file>fonts/read me.txt</file>
+        <file>fonts/Read this.txt</file>
+        <file>fonts/Read-Me.txt</file>
+        <file>fonts/read.me</file>
+        <file>fonts/READ.ME!</file>
+        <file>fonts/READ_ME%.TXT</file>
+        <file>fonts/read_me.html</file>
+        <file>fonts/read_me.txt</file>
+        <file>fonts/Read_me_.txt</file>
+        <file>fonts/readme file.txt</file>
+        <file>fonts/readme-depressionist3.txt</file>
+        <file>fonts/readme.doc</file>
+        <file>fonts/readme.htm</file>
+        <file>fonts/readme.txt</file>
+        <file>fonts/readme.wps</file>
+        <file>fonts/readme.wri</file>
+        <file>fonts/readmenow.txt</file>
+        <file>fonts/ReadMeOrI'llTearYourSoulApart.txt</file>
+        <file>fonts/readthis.txt</file>
+        <file>fonts/RECHTMAN.TXT</file>
+        <file>fonts/Recife(readme).txt</file>
+        <file>fonts/REDHG___.TTF</file>
+        <file>fonts/REDHGB__.TTF</file>
+        <file>fonts/Redstar.ttf</file>
+        <file>fonts/RedstarBold.ttf</file>
+        <file>fonts/register.txt</file>
+        <file>fonts/RES_____.TTF</file>
+        <file>fonts/RHUMBASC.TTF</file>
+        <file>fonts/RockFont.ttf</file>
+        <file>fonts/Rope MF.ttf</file>
+        <file>fonts/ROUGD___.TTF</file>
+        <file>fonts/ROUGH.TXT</file>
+        <file>fonts/Royalacid.ttf</file>
+        <file>fonts/Royalacid_o.ttf</file>
+        <file>fonts/rufbrush.ttf</file>
+        <file>fonts/ruthscr.ttf</file>
+        <file>fonts/S-CO-OP.DOC</file>
+        <file>fonts/SABADOO_.TTF</file>
+        <file>fonts/SABRINA_.TTF</file>
+        <file>fonts/SABRINAS.TTF</file>
+        <file>fonts/salaryma.ttf</file>
+        <file>fonts/SAMARN__.TTF</file>
+        <file>fonts/SAMARO__.TTF</file>
+        <file>fonts/sample003.jpg</file>
+        <file>fonts/SAMPLES.GIF</file>
+        <file>fonts/Sanctuary.ttf</file>
+        <file>fonts/Sanctuary_Font_Read_Me.txt</file>
+        <file>fonts/sandoval.ttf</file>
+        <file>fonts/sandsped.ttf</file>
+        <file>fonts/SANSKRIT.TTF</file>
+        <file>fonts/SANSKRIT.WWK</file>
+        <file>fonts/SANTBSB_.TTF</file>
+        <file>fonts/schoolbully.ttf</file>
+        <file>fonts/Scood___.ttf</file>
+        <file>fonts/Scramble.doc</file>
+        <file>fonts/Scramble.rtf</file>
+        <file>fonts/Scramble.ttf</file>
+        <file>fonts/Scramble.wri</file>
+        <file>fonts/SCRATCHMYBACK.TTF</file>
+        <file>fonts/ScrawnyK.ttf</file>
+        <file>fonts/screamo.gif</file>
+        <file>fonts/screamo.ttf</file>
+        <file>fonts/SCREEN__.TTF</file>
+        <file>fonts/SCRIPALT.ttf</file>
+        <file>fonts/SCRIPTIN.ttf</file>
+        <file>fonts/SF Balloons.ttf</file>
+        <file>fonts/SF Burlington Script Bold Italic.ttf</file>
+        <file>fonts/SF Burlington Script Bold.ttf</file>
+        <file>fonts/SF Burlington Script Italic.ttf</file>
+        <file>fonts/SF Burlington Script Sample.jpg</file>
+        <file>fonts/SF Burlington Script SC Bold Italic.ttf</file>
+        <file>fonts/SF Burlington Script SC Bold.ttf</file>
+        <file>fonts/SF Burlington Script SC Italic.ttf</file>
+        <file>fonts/SF Burlington Script SC.ttf</file>
+        <file>fonts/SF Burlington Script.ttf</file>
+        <file>fonts/SF Foxboro Script Bold Italic.ttf</file>
+        <file>fonts/SF Foxboro Script Bold.ttf</file>
+        <file>fonts/SF Foxboro Script Extended Bold Italic.ttf</file>
+        <file>fonts/SF Foxboro Script Extended Bold.ttf</file>
+        <file>fonts/SF Foxboro Script Extended Italic.ttf</file>
+        <file>fonts/SF Foxboro Script Extended.ttf</file>
+        <file>fonts/SF Foxboro Script Italic.ttf</file>
+        <file>fonts/SF Foxboro Script Sample.jpg</file>
+        <file>fonts/SF Foxboro Script.ttf</file>
+        <file>fonts/SF Gushing Meadow SC.ttf</file>
+        <file>fonts/SF Gushing Meadow.ttf</file>
+        <file>fonts/SF Movie Poster Bold Italic.ttf</file>
+        <file>fonts/SF Movie Poster Bold.ttf</file>
+        <file>fonts/SF Movie Poster Condensed Bold Italic.ttf</file>
+        <file>fonts/SF Movie Poster Condensed Bold.ttf</file>
+        <file>fonts/SF Movie Poster Condensed Italic.ttf</file>
+        <file>fonts/SF Movie Poster Condensed.ttf</file>
+        <file>fonts/SF Movie Poster Italic.ttf</file>
+        <file>fonts/SF Movie Poster Sample.jpg</file>
+        <file>fonts/SF Movie Poster.ttf</file>
+        <file>fonts/SF Scribbled Sans Bold Italic.ttf</file>
+        <file>fonts/SF Scribbled Sans Bold.ttf</file>
+        <file>fonts/SF Scribbled Sans Italic.ttf</file>
+        <file>fonts/SF Scribbled Sans Sample.jpg</file>
+        <file>fonts/SF Scribbled Sans SC Bold Italic.ttf</file>
+        <file>fonts/SF Scribbled Sans SC Bold.ttf</file>
+        <file>fonts/SF Scribbled Sans SC Italic.ttf</file>
+        <file>fonts/SF Scribbled Sans SC.ttf</file>
+        <file>fonts/SF Scribbled Sans.ttf</file>
+        <file>fonts/SF-Gushing-Meadow-Sample.jpg</file>
+        <file>fonts/SFL1.GIF</file>
+        <file>fonts/SFL2.GIF</file>
+        <file>fonts/SFL3.GIF</file>
+        <file>fonts/SFL4.GIF</file>
+        <file>fonts/SFL5.GIF</file>
+        <file>fonts/SFL6.GIF</file>
+        <file>fonts/SFL7.GIF</file>
+        <file>fonts/SFL8.GIF</file>
+        <file>fonts/SFLINFO.GIF</file>
+        <file>fonts/Shadowed Black Wide.ttf</file>
+        <file>fonts/Shadowed Black.ttf</file>
+        <file>fonts/Shadowed Germanica.ttf</file>
+        <file>fonts/shareware.txt</file>
+        <file>fonts/Simpsonfont.ttf</file>
+        <file>fonts/Simpsonfont.txt</file>
+        <file>fonts/Sixties.ttf</file>
+        <file>fonts/sketchy.ttf</file>
+        <file>fonts/Sketchy.txt</file>
+        <file>fonts/SKRYT___.TTF</file>
+        <file>fonts/Sleepy Hollow 3.ttf</file>
+        <file>fonts/SMARC___.TTF</file>
+        <file>fonts/sncscrp.ttf</file>
+        <file>fonts/special.txt</file>
+        <file>fonts/SpecialReadMe.txt</file>
+        <file>fonts/Speedline.ttf</file>
+        <file>fonts/Spring.ttf</file>
+        <file>fonts/Springta.ttf</file>
+        <file>fonts/SPRINGTC.TTF</file>
+        <file>fonts/SPRINGTF.TTF</file>
+        <file>fonts/SPRINGTI.TTF</file>
+        <file>fonts/SQUAREHEADS.TTF</file>
+        <file>fonts/Star Jedi font guide Word97.doc</file>
+        <file>fonts/Star Jedi Outline font guide Word97.doc</file>
+        <file>fonts/Star Jedi Outline sample.jpg</file>
+        <file>fonts/Star-Hnd.ttf</file>
+        <file>fonts/starjedi hollow sample.jpg</file>
+        <file>fonts/starjedi sample.jpg</file>
+        <file>fonts/Starjedi.ttf</file>
+        <file>fonts/Starjhol.ttf</file>
+        <file>fonts/Starjout.ttf</file>
+        <file>fonts/Starn___.ttf</file>
+        <file>fonts/stilltim.ttf</file>
+        <file>fonts/STONB___.TTF</file>
+        <file>fonts/SWATRG__.TTF</file>
+        <file>fonts/SWISHBUT.TTF</file>
+        <file>fonts/TABLETRO.TTF</file>
+        <file>fonts/TACOSRG_.TTF</file>
+        <file>fonts/Tafelschrift.ttf</file>
+        <file>fonts/tag.ttf</file>
+        <file>fonts/Tagettes.txt</file>
+        <file>fonts/tagettPl.ttf</file>
+        <file>fonts/tagetts.ttf</file>
+        <file>fonts/TAGSX___.TTF</file>
+        <file>fonts/tagsxtreme.TTF</file>
+        <file>fonts/TAKE.TTF</file>
+        <file>fonts/tallpaul.ttf</file>
+        <file>fonts/tallpaul.txt</file>
+        <file>fonts/Tarantella MF Font.wri</file>
+        <file>fonts/Tarantella MF.ttf</file>
+        <file>fonts/TaraType.ttf</file>
+        <file>fonts/TATTGF__.TTF</file>
+        <file>fonts/TATTOOFW.TXT</file>
+        <file>fonts/TATTOOGR.jpg</file>
+        <file>fonts/tatu_font.ttf</file>
+        <file>fonts/TEAMSPIR.TTF</file>
+        <file>fonts/teen.TXT</file>
+        <file>fonts/teen____.ttf</file>
+        <file>fonts/teenbdit.ttf</file>
+        <file>fonts/teenbold.ttf</file>
+        <file>fonts/teenital.ttf</file>
+        <file>fonts/teenlita.ttf</file>
+        <file>fonts/teenlite.ttf</file>
+        <file>fonts/tele.txt</file>
+        <file>fonts/TELE2.TTF</file>
+        <file>fonts/Tempest.ttf</file>
+        <file>fonts/tempnou.ttf</file>
+        <file>fonts/Tempst-n.ttf</file>
+        <file>fonts/TEN.TTF</file>
+        <file>fonts/TEN_____.AFM</file>
+        <file>fonts/TEN_____.INF</file>
+        <file>fonts/TEN_____.PFB</file>
+        <file>fonts/TEN_____.PFM</file>
+        <file>fonts/TERMINAT.TTF</file>
+        <file>fonts/TERPSIC.TTF</file>
+        <file>fonts/teutonic1.ttf</file>
+        <file>fonts/teutonic2.ttf</file>
+        <file>fonts/teutonic3.ttf</file>
+        <file>fonts/teutonic4.ttf</file>
+        <file>fonts/Text.txt</file>
+        <file>fonts/thats___.ttf</file>
+        <file>fonts/thatsupr.gif</file>
+        <file>fonts/thatsupr.txt</file>
+        <file>fonts/TheGodFather.ttf</file>
+        <file>fonts/THUG____.TTF</file>
+        <file>fonts/TLDPR1.jpg</file>
+        <file>fonts/TLDPR2.jpg</file>
+        <file>fonts/TLDPR3.jpg</file>
+        <file>fonts/TLDPR4.jpg</file>
+        <file>fonts/TLDPR5.jpg</file>
+        <file>fonts/TORTT___.TTF</file>
+        <file>fonts/Treamd.ttf</file>
+        <file>fonts/TROPICAN.TTF</file>
+        <file>fonts/Trubble.ttf</file>
+        <file>fonts/TURBO ripped.ttf</file>
+        <file>fonts/turboPic.gif</file>
+        <file>fonts/Twinkle.ttf</file>
+        <file>fonts/TYD_____.TTF</file>
+        <file>fonts/typey.gif</file>
+        <file>fonts/typwrng.ttf</file>
+        <file>fonts/U26frg__.ttf</file>
+        <file>fonts/UEG_____.TTF</file>
+        <file>fonts/UN____11.TTF</file>
+        <file>fonts/UNDERGRO.TTF</file>
+        <file>fonts/USAGE.TXT</file>
+        <file>fonts/USTATES.TTF</file>
+        <file>fonts/USUZI.TTF</file>
+        <file>fonts/usuzi.txt</file>
+        <file>fonts/vacantcapz.txt</file>
+        <file>fonts/vacantz.ttf</file>
+        <file>fonts/VALENTINEHEARTS.ttf</file>
+        <file>fonts/VAMPG___.TTF</file>
+        <file>fonts/vampiress.ttf</file>
+        <file>fonts/van helsing.ttf</file>
+        <file>fonts/VENDINFO.DIZ</file>
+        <file>fonts/VENDOR.DOC</file>
+        <file>fonts/VENDOR.TXT</file>
+        <file>fonts/Verona Script.ttf</file>
+        <file>fonts/Viking_n.ttf</file>
+        <file>fonts/Viking_Readme.txt</file>
+        <file>fonts/vinque.ttf</file>
+        <file>fonts/VIOLATIO.TTF</file>
+        <file>fonts/Virginlo.ttf</file>
+        <file>fonts/VIRGINLO.TXT</file>
+        <file>fonts/virgo.ttf</file>
+        <file>fonts/WACHAKA_.TTF</file>
+        <file>fonts/wadsworth.txt</file>
+        <file>fonts/WadsworthIndustria.ttf</file>
+        <file>fonts/Walkway Black RevOblique.ttf</file>
+        <file>fonts/Walkway Black.ttf</file>
+        <file>fonts/Walkway Bold RevOblique.ttf</file>
+        <file>fonts/Walkway Bold.ttf</file>
+        <file>fonts/Walkway Condensed Bold.ttf</file>
+        <file>fonts/Walkway Condensed SemiBold.ttf</file>
+        <file>fonts/Walkway Condensed.ttf</file>
+        <file>fonts/Walkway Expand Black.ttf</file>
+        <file>fonts/Walkway Expand Bold.ttf</file>
+        <file>fonts/Walkway Expand RevOblique.ttf</file>
+        <file>fonts/Walkway Expand SemiBold.ttf</file>
+        <file>fonts/Walkway Expand UltraBold.ttf</file>
+        <file>fonts/Walkway Expand.ttf</file>
+        <file>fonts/Walkway Oblique Black.ttf</file>
+        <file>fonts/Walkway Oblique Bold.ttf</file>
+        <file>fonts/Walkway Oblique Expand.ttf</file>
+        <file>fonts/Walkway Oblique SemiBold.ttf</file>
+        <file>fonts/Walkway Oblique UltraBold.ttf</file>
+        <file>fonts/Walkway Oblique.ttf</file>
+        <file>fonts/Walkway RevOblique.ttf</file>
+        <file>fonts/Walkway rounded.ttf</file>
+        <file>fonts/Walkway SemiBold RevOblique.ttf</file>
+        <file>fonts/Walkway SemiBold.ttf</file>
+        <file>fonts/Walkway UltraBold RevOblique.ttf</file>
+        <file>fonts/Walkway UltraBold.ttf</file>
+        <file>fonts/Walkway UltraCondensed Bold.ttf</file>
+        <file>fonts/Walkway UltraCondensed Semi.ttf</file>
+        <file>fonts/Walkway UltraCondensed.ttf</file>
+        <file>fonts/Walkway UltraExpand Bold.ttf</file>
+        <file>fonts/Walkway UltraExpand SemiBold.ttf</file>
+        <file>fonts/Walkway UltraExpand.ttf</file>
+        <file>fonts/WALTER__.TTF</file>
+        <file>fonts/WC_MANO_NEGRA_BTA.pdf</file>
+        <file>fonts/WCManoNegraBta.otf</file>
+        <file>fonts/WCManoNegraBta.ttf</file>
+        <file>fonts/wenzel1.ttf</file>
+        <file>fonts/Wild Things.txt</file>
+        <file>fonts/Windsong.ttf</file>
+        <file>fonts/WirWenzlaw.txt</file>
+        <file>fonts/Witched.TTF</file>
+        <file>fonts/WORDSOFLOVE.ttf</file>
+        <file>fonts/X_GALLE.TTF</file>
+        <file>fonts/Xenippa.txt</file>
+        <file>fonts/xenippa1.ttf</file>
+        <file>fonts/xeroxmal.ttf</file>
+        <file>fonts/xeroxmalfunction.txt</file>
+        <file>fonts/Xirwena.txt</file>
+        <file>fonts/xirwena1.ttf</file>
+        <file>fonts/Y2K_analog_legacy.ttf</file>
+        <file>fonts/Y2K_analog_legacy_italic.ttf</file>
+        <file>fonts/Y2K_neophyte.ttf</file>
+        <file>fonts/Y2K_neophyte_italic.ttf</file>
+        <file>fonts/Yahoo.ttf</file>
+        <file>fonts/yolda.txt</file>
+        <file>fonts/YOLDA___.TTF</file>
+        <file>fonts/YOR.TTF</file>
+        <file>fonts/yor.txt</file>
+        <file>fonts/youngst.ttf</file>
+        <file>fonts/ZDABD.TTF</file>
+        <file>fonts/zenda.ttf</file>
+        <file>fonts/ZendaEmbossed.ttf</file>
+        <file>fonts/zero&amp;.ttf</file>
+        <file>fonts/ZEROGIRL.TTF</file>
+        <file>fonts/ZETAfont.txt</file>
+        <file>fonts/Ziggy Zoe.ttf</file>
+        <file>fonts/ZOD_____.TTF</file>
     </qresource>
 </RCC>

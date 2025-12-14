@@ -1,7 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include "themes.h"
+#include "ui_property.h"
 
 int main(int argc, char *argv[])
 {
@@ -17,8 +17,9 @@ int main(int argc, char *argv[])
             QCoreApplication::exit(-1);
     }, Qt::QueuedConnection);
 
-    Themes themes;
-    engine.rootContext()->setContextProperty("Themes", &themes);
+    Ui_property ui_property;
+    engine.rootContext()->setContextProperty("Ui_property", &ui_property);
+
 
     engine.load(url);
 

@@ -6,6 +6,8 @@
 class Ui_property : public QObject
 {
     Q_OBJECT
+
+    Q_PROPERTY(QString baseColor READ baseColor WRITE setBaseColor NOTIFY baseColorChanged)
     Q_PROPERTY(QString backgroundColor READ backgroundColor WRITE setBackgroundColor NOTIFY backgroundColorChanged)
     Q_PROPERTY(QString borderColor READ borderColor WRITE setBorderColor NOTIFY borderColorChanged)
 
@@ -38,6 +40,7 @@ class Ui_property : public QObject
 
     Q_PROPERTY(QString firstExtra READ firstExtra WRITE setFirstExtra NOTIFY firstExtraChanged)
     Q_PROPERTY(QString secondExtra READ secondExtra WRITE setsecondExtra NOTIFY secondExtraChanged)
+
 
 
     QString m_backgroundColor;
@@ -84,318 +87,154 @@ QString m_firstExtra;
 
 QString m_secondExtra;
 
+QString m_baseColor;
+
 public:
     explicit Ui_property(QObject *parent = nullptr);
 
-QString backgroundColor() const
-{
-    return m_backgroundColor;
-}
+QString backgroundColor() const;
 
-QString borderColor() const
-{
-    return m_borderColor;
-}
+QString borderColor() const;
 
-QString buttonReleasedColor() const
-{
-    return m_buttonReleasedColor;
-}
+QString buttonReleasedColor() const;
 
-QString buttonReleaseFontColor() const
-{
-    return m_buttonReleaseFontColor;
-}
+QString buttonReleaseFontColor() const;
 
-QString buttonHoveredColor() const
-{
-    return m_buttonHoveredColor;
-}
+QString buttonHoveredColor() const;
 
-QString buttonHoverFontColor() const
-{
-    return m_buttonHoverFontColor;
-}
+QString buttonHoverFontColor() const;
 
-QString buttonSelectedColor() const
-{
-    return m_buttonSelectedColor;
-}
+QString buttonSelectedColor() const;
 
-QString buttonSelectedFontColor() const
-{
-    return m_buttonSelectedFontColor;
-}
+QString buttonSelectedFontColor() const;
 
-QString sectionBackgroundColor() const
-{
-    return m_sectionBackgroundColor;
-}
+QString sectionBackgroundColor() const;
 
-QString sectionRowColor() const
-{
-    return m_sectionRowColor;
-}
+QString sectionRowColor() const;
 
-QString sectionRowBorder() const
-{
-    return m_sectionRowBorder;
-}
+QString sectionRowBorder() const;
 
-QString sectionRowFontColor() const
-{
-    return m_sectionRowFontColor;
-}
+QString sectionRowFontColor() const;
 
-QString inputBoxColor() const
-{
-    return m_inputBoxColor;
-}
+QString inputBoxColor() const;
 
-QString loginButtonColor() const
-{
-    return m_loginButtonColor;
-}
+QString loginButtonColor() const;
 
-QString selectFontColor() const
-{
-    return m_selectFontColor;
-}
+QString selectFontColor() const;
 
-QString selectBackgroundColor() const
-{
-    return m_selectBackgroundColor;
-}
+QString selectBackgroundColor() const;
 
-QString lableSelectedColor() const
-{
-    return m_lableSelectedColor;
-}
+QString lableSelectedColor() const;
 
-QString lableReleasedColor() const
-{
-    return m_lableReleasedColor;
-}
+QString lableReleasedColor() const;
 
-QString titleColor() const
-{
-    return m_titleColor;
-}
+QString titleColor() const;
 
-QString titleFontColor() const
-{
-    return m_titleFontColor;
-}
+QString titleFontColor() const;
 
-QString firstExtra() const
-{
-    return m_firstExtra;
-}
+QString firstExtra() const;
 
-QString secondExtra() const
+QString secondExtra() const;
+
+
+
+
+
+Q_INVOKABLE void rangerGreenTheme();
+Q_INVOKABLE void navalOpsTheme();
+Q_INVOKABLE void desertCoyoteTheme();
+Q_INVOKABLE void arcticCommandTheme();
+Q_INVOKABLE void blackoutTacticalTheme();
+Q_INVOKABLE void oceanBlueTheme();
+Q_INVOKABLE void cyanWaveTheme();
+Q_INVOKABLE void tealLagoonTheme();
+Q_INVOKABLE void emeraldGreenTheme();
+Q_INVOKABLE void limeZestTheme();
+Q_INVOKABLE void darkRedTheme();
+Q_INVOKABLE void goldenAmberTheme();
+Q_INVOKABLE void sunsetOrangeTheme();
+Q_INVOKABLE void rubyRedTheme();
+Q_INVOKABLE void hotPinkTheme();
+Q_INVOKABLE void royalPurpleTheme();
+Q_INVOKABLE void indigoNightTheme();
+Q_INVOKABLE void slateNeutralTheme();
+Q_INVOKABLE void nordFrostTheme();
+Q_INVOKABLE void solarizedBlueTheme();
+Q_INVOKABLE void draculaPurpleTheme();
+Q_INVOKABLE void gruvboxAquaTheme();
+Q_INVOKABLE void rosePineFoamTheme();
+Q_INVOKABLE void kanagawaWaveTheme();
+Q_INVOKABLE void githubBlueTheme();
+Q_INVOKABLE void nordAuroraRedTheme();
+Q_INVOKABLE void lightSkyBlueTheme();
+Q_INVOKABLE void lightMintTheme();
+Q_INVOKABLE void lightLavenderTheme();
+Q_INVOKABLE void lightPeachTheme();
+Q_INVOKABLE void lightRoseTheme();
+Q_INVOKABLE void lightRedTheme();
+Q_INVOKABLE void lightLemonTheme();
+Q_INVOKABLE void lightCoralTheme();
+Q_INVOKABLE void lightAquaTheme();
+Q_INVOKABLE void lightTealTheme();
+Q_INVOKABLE void lightOliveTheme();
+Q_INVOKABLE void lightSandTheme();
+Q_INVOKABLE void lightSlateBlueTheme();
+Q_INVOKABLE void lightGrayNeutralTheme();
+
+
+
+
+QString baseColor() const
 {
-    return m_secondExtra;
+    return m_baseColor;
 }
- void rangeGreenTheme();
 
 public slots:
-void setBackgroundColor(QString backgroundColor)
-{
-    if (m_backgroundColor == backgroundColor)
-        return;
+void setBackgroundColor(QString backgroundColor);
 
-    m_backgroundColor = backgroundColor;
-    emit backgroundColorChanged(m_backgroundColor);
-}
+void setBorderColor(QString borderColor);
 
-void setBorderColor(QString borderColor)
-{
-    if (m_borderColor == borderColor)
-        return;
+void setButtonReleasedColor(QString buttonReleasedColor);
 
-    m_borderColor = borderColor;
-    emit borderColorChanged(m_borderColor);
-}
+void setButtonReleaseFontColor(QString buttonReleaseFontColor);
 
-void setButtonReleasedColor(QString buttonReleasedColor)
-{
-    if (m_buttonReleasedColor == buttonReleasedColor)
-        return;
+void setButtonHoveredColor(QString buttonHoveredColor);
 
-    m_buttonReleasedColor = buttonReleasedColor;
-    emit buttonReleasedColorChanged(m_buttonReleasedColor);
-}
+void setButtonHoverFontColor(QString buttonHoverFontColor);
 
-void setButtonReleaseFontColor(QString buttonReleaseFontColor)
-{
-    if (m_buttonReleaseFontColor == buttonReleaseFontColor)
-        return;
+void setButtonSelectedColor(QString buttonSelectedColor);
 
-    m_buttonReleaseFontColor = buttonReleaseFontColor;
-    emit buttonReleaseFontColorChanged(m_buttonReleaseFontColor);
-}
+void setButtonSelectedFontColor(QString buttonSelectedFontColor);
 
-void setButtonHoveredColor(QString buttonHoveredColor)
-{
-    if (m_buttonHoveredColor == buttonHoveredColor)
-        return;
+void setSectionBackgroundColor(QString sectionBackgroundColor);
 
-    m_buttonHoveredColor = buttonHoveredColor;
-    emit buttonHoveredColorChanged(m_buttonHoveredColor);
-}
+void setSectionRowColor(QString sectionRowColor);
 
-void setButtonHoverFontColor(QString buttonHoverFontColor)
-{
-    if (m_buttonHoverFontColor == buttonHoverFontColor)
-        return;
+void setSectionRowBorder(QString sectionRowBorder);
 
-    m_buttonHoverFontColor = buttonHoverFontColor;
-    emit buttonHoverFontColorChanged(m_buttonHoverFontColor);
-}
+void setSectionRowFontColor(QString sectionRowFontColor);
 
-void setButtonSelectedColor(QString buttonSelectedColor)
-{
-    if (m_buttonSelectedColor == buttonSelectedColor)
-        return;
+void setInputBoxColor(QString inputBoxColor);
 
-    m_buttonSelectedColor = buttonSelectedColor;
-    emit buttonSelectedColorChanged(m_buttonSelectedColor);
-}
+void setLoginButtonColor(QString loginButtonColor);
 
-void setButtonSelectedFontColor(QString buttonSelectedFontColor)
-{
-    if (m_buttonSelectedFontColor == buttonSelectedFontColor)
-        return;
+void setSelectFontColor(QString selectFontColor);
 
-    m_buttonSelectedFontColor = buttonSelectedFontColor;
-    emit buttonSelectedFontColorChanged(m_buttonSelectedFontColor);
-}
+void setSelectBackgroundColor(QString selectBackgroundColor);
 
-void setSectionBackgroundColor(QString sectionBackgroundColor)
-{
-    if (m_sectionBackgroundColor == sectionBackgroundColor)
-        return;
+void setLableSelectedColor(QString lableSelectedColor);
 
-    m_sectionBackgroundColor = sectionBackgroundColor;
-    emit sectionBackgroundColorChanged(m_sectionBackgroundColor);
-}
+void setLableReleasedColor(QString lableReleasedColor);
 
-void setSectionRowColor(QString sectionRowColor)
-{
-    if (m_sectionRowColor == sectionRowColor)
-        return;
+void setTitleColor(QString titleColor);
 
-    m_sectionRowColor = sectionRowColor;
-    emit sectionRowColorChanged(m_sectionRowColor);
-}
+void setTitleFontColor(QString titleFontColor);
 
-void setSectionRowBorder(QString sectionRowBorder)
-{
-    if (m_sectionRowBorder == sectionRowBorder)
-        return;
+void setFirstExtra(QString firstExtra);
 
-    m_sectionRowBorder = sectionRowBorder;
-    emit sectionRowBorderChanged(m_sectionRowBorder);
-}
+void setsecondExtra(QString secondExtra);
 
-void setSectionRowFontColor(QString sectionRowFontColor)
-{
-    if (m_sectionRowFontColor == sectionRowFontColor)
-        return;
-
-    m_sectionRowFontColor = sectionRowFontColor;
-    emit sectionRowFontColorChanged(m_sectionRowFontColor);
-}
-
-void setInputBoxColor(QString inputBoxColor)
-{
-    if (m_inputBoxColor == inputBoxColor)
-        return;
-
-    m_inputBoxColor = inputBoxColor;
-    emit inputBoxColorChanged(m_inputBoxColor);
-}
-
-void setLoginButtonColor(QString loginButtonColor)
-{
-    if (m_loginButtonColor == loginButtonColor)
-        return;
-
-    m_loginButtonColor = loginButtonColor;
-    emit loginButtonColorChanged(m_loginButtonColor);
-}
-
-void setSelectFontColor(QString selectFontColor)
-{
-    if (m_selectFontColor == selectFontColor)
-        return;
-
-    m_selectFontColor = selectFontColor;
-    emit selectFontColorChanged(m_selectFontColor);
-}
-
-void setSelectBackgroundColor(QString selectBackgroundColor)
-{
-    if (m_selectBackgroundColor == selectBackgroundColor)
-        return;
-
-    m_selectBackgroundColor = selectBackgroundColor;
-    emit selectBackgroundColorChanged(m_selectBackgroundColor);
-}
-
-void setLableSelectedColor(QString lableSelectedColor)
-{
-    if (m_lableSelectedColor == lableSelectedColor)
-        return;
-
-    m_lableSelectedColor = lableSelectedColor;
-    emit lableSelectedColorChanged(m_lableSelectedColor);
-}
-
-void setLableReleasedColor(QString lableReleasedColor)
-{
-    if (m_lableReleasedColor == lableReleasedColor)
-        return;
-
-    m_lableReleasedColor = lableReleasedColor;
-    emit lableReleasedColorChanged(m_lableReleasedColor);
-}
-
-void setTitleColor(QString titleColor)
-{
-    if (m_titleColor == titleColor)
-        return;
-
-    m_titleColor = titleColor;
-    emit titleColorChanged(m_titleColor);
-}
-
-void setTitleFontColor(QString titleFontColor)
-{
-    if (m_titleFontColor == titleFontColor)
-        return;
-
-    m_titleFontColor = titleFontColor;
-    emit titleFontColorChanged(m_titleFontColor);
-}
-
-void setFirstExtra(QString firstExtra)
-{
-    if (m_firstExtra == firstExtra)
-        return;
-
-    m_firstExtra = firstExtra;
-    emit firstExtraChanged(m_firstExtra);
-}
-
-void setsecondExtra(QString secondExtra)
-{
-    if (m_secondExtra == secondExtra)
-        return;
-
-    m_secondExtra = secondExtra;
-    emit secondExtraChanged(m_secondExtra);
-}
+void setBaseColor(QString baseColor);
 
 signals:
 
@@ -421,6 +260,7 @@ void titleColorChanged(QString titleColor);
 void titleFontColorChanged(QString titleFontColor);
 void firstExtraChanged(QString firstExtra);
 void secondExtraChanged(QString secondExtra);
+void baseColorChanged(QString baseColor);
 };
 
 #endif // UI_PROPERTY_H

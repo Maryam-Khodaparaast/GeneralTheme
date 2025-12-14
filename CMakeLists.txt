@@ -21,8 +21,6 @@ add_executable(generalTheme
       qml.qrc
       ui_property.cpp
       ui_property.h
-      themes.cpp
-      themes.h
     )
 
 target_compile_definitions(generalTheme
