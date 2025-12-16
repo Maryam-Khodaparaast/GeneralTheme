@@ -21,6 +21,9 @@ add_executable(generalTheme
       qml.qrc
       ui_property.cpp
       ui_property.h
+      fontfamilies.cpp
+      fontfamilies.h
+      font.qrc
     )
 
 target_compile_definitions(generalTheme

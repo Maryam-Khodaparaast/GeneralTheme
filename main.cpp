@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include "ui_property.h"
+#include "fontfamilies.h"
 
 int main(int argc, char *argv[])
 {
@@ -19,6 +20,10 @@ int main(int argc, char *argv[])
 
     Ui_property ui_property;
     engine.rootContext()->setContextProperty("Ui_property", &ui_property);
+
+    FontFamilies fontFamilies;
+    engine.rootContext()->setContextProperty("fontFamilies", &fontFamilies);
+
 
 
     engine.load(url);
