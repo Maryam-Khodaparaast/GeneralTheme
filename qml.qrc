@@ -2,5 +2,12 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>ThemeSelectionPart.qml</file>
+        <file>FontSelectionPart.qml</file>
+        <file>CustomStatusBar.qml</file>
+        <file>CustomComboBox.qml</file>
+        <file>MainPage.qml</file>
+        <file>CustomTabbar.qml</file>
+        <file>CustomTitleBar.qml</file>
+        <file>CustomTitleButton.qml</file>
     </qresource>
 </RCC>
